@@ -1,6 +1,12 @@
+rules:
+    - App\PHPStan\ForbiddenGlobalFunctionsRule
+
 parameters:
-    level: 5
+
     paths:
-        - . 
-    autoload_files:
-        - vendor/autoload.php
+        - app
+
+    level: 6
+
+    ignoreErrors:
+        - identifier: missingType.generics
