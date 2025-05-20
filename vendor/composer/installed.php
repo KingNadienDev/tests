@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '710fdc25f58c61472d8091eb66cda9192988bbc1',
+        'reference' => '16e381bcf6b1dda76fbdd698ae0c2e788710cff6',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -541,7 +541,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '710fdc25f58c61472d8091eb66cda9192988bbc1',
+            'reference' => '16e381bcf6b1dda76fbdd698ae0c2e788710cff6',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -849,6 +849,15 @@
             'install_path' => __DIR__ . '/../phpoption/phpoption',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '2.1.16',
+            'version' => '2.1.16.0',
+            'reference' => 'b8c1cf533cba0c305d91c6ccd23f3dd0566ba5f9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
             'pretty_version' => '11.0.9',
