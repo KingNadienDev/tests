@@ -165,6 +165,7 @@ class ComposerStaticInita041471c9557341e436edcb8a2aafa5a
             'Laravel\\Sail\\' => 13,
             'Laravel\\Prompts\\' => 16,
             'Laravel\\Pail\\' => 13,
+            'Laravel\\Breeze\\' => 15,
         ),
         'K' => 
         array (
@@ -548,6 +549,10 @@ class ComposerStaticInita041471c9557341e436edcb8a2aafa5a
         array (
             0 => __DIR__ . '/..' . '/laravel/pail/src',
         ),
+        'Laravel\\Breeze\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/breeze/src',
+        ),
         'Kirschbaum\\PowerJoins\\' => 
         array (
             0 => __DIR__ . '/..' . '/kirschbaum-development/eloquent-power-joins/src',
@@ -725,6 +730,7 @@ class ComposerStaticInita041471c9557341e436edcb8a2aafa5a
         'AnourValar\\EloquentSerialize\\Package' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Package.php',
         'AnourValar\\EloquentSerialize\\Service' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Service.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\PHPStan\\ForbiddenGlobalFunctionsRule' => __DIR__ . '/../..' . '/app/PHPStan/ForbiddenGlobalFunctionsRule.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
@@ -4093,6 +4099,12 @@ class ComposerStaticInita041471c9557341e436edcb8a2aafa5a
         'Kirschbaum\\PowerJoins\\PowerJoinClause' => __DIR__ . '/..' . '/kirschbaum-development/eloquent-power-joins/src/PowerJoinClause.php',
         'Kirschbaum\\PowerJoins\\PowerJoinsServiceProvider' => __DIR__ . '/..' . '/kirschbaum-development/eloquent-power-joins/src/PowerJoinsServiceProvider.php',
         'Kirschbaum\\PowerJoins\\StaticCache' => __DIR__ . '/..' . '/kirschbaum-development/eloquent-power-joins/src/StaticCache.php',
+        'Laravel\\Breeze\\BreezeServiceProvider' => __DIR__ . '/..' . '/laravel/breeze/src/BreezeServiceProvider.php',
+        'Laravel\\Breeze\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallCommand.php',
+        'Laravel\\Breeze\\Console\\InstallsApiStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsApiStack.php',
+        'Laravel\\Breeze\\Console\\InstallsBladeStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsBladeStack.php',
+        'Laravel\\Breeze\\Console\\InstallsInertiaStacks' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsInertiaStacks.php',
+        'Laravel\\Breeze\\Console\\InstallsLivewireStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsLivewireStack.php',
         'Laravel\\Pail\\Console\\Commands\\PailCommand' => __DIR__ . '/..' . '/laravel/pail/src/Console/Commands/PailCommand.php',
         'Laravel\\Pail\\Contracts\\Printer' => __DIR__ . '/..' . '/laravel/pail/src/Contracts/Printer.php',
         'Laravel\\Pail\\File' => __DIR__ . '/..' . '/laravel/pail/src/File.php',
